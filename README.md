@@ -17,7 +17,7 @@
 ## 1. Preâmbulo
 
 Segundo a
-[Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read)
+[Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read),
 90% dos dados que existem hoje foram gerados durante os últimos dois anos. A
 cada dia geramos 2.5 milhões de terabytes de dados, uma cifra sem precedentes.
 
@@ -69,7 +69,7 @@ Para a execução do projeto, planejamos um protótipo capaz de suprir as necess
 Ao acessar o site, o usuário clica na pokebola e será direcionado para uma página com todos os cards de pokémons. Cada card possui na parte frontal informações como: peso, altura, raridade, e geração. Ao passar o mouse pelo card, o mesmo vira e irá trazer informações de: fraqueza, resistência, evoluções e quantos candies são necessários para sua evolução.
 
 
-## 5. Protótipos
+## 4. Protótipos
 
 Uma vez tendo essas referências do tópico acima, seguimos para o desenvolvimento de dois protótipos. Um voltado para desktop e outro para mobile.
 
@@ -99,7 +99,7 @@ Uma vez tendo essas referências do tópico acima, seguimos para o desenvolvimen
 ![Tela inicial card-front](/src/image/prototipo-mobile-tela-front.png)
 ![Tela inicial card-back](/src/image/prototipo-mobile-tela-back.png)
 
-## 6. Testes de usabilidade
+## 5. Testes de usabilidade
 
 Fizemos testes de usabilidades e constatamos que:
 
@@ -118,7 +118,7 @@ Fizemos testes de usabilidades e constatamos que:
 7º - O nosso usuário sentiu falta de alguma descrição do que pode ser encontrado no site. Resolvemos isso colocando um alert assim que o usuário acessa a página dos cards.
 
 
-## 7. Testes unitários
+## 6. Testes unitários
 
 Durante o projeto escrevemos nossos testes unitários para as funções encarregadas de processar, filtrar e ordenar os dados, assim como calcular estatísticas.
 
@@ -127,7 +127,7 @@ Nossos testes unitários tiveram uma cobertura mínima de 100% de statements (se
 Ao rodar os testes, observamos que apesar da cobertura de 100% das linhas, uma em específico não foi coberta pelos testes. Tivemos a orientação que isso não iria impactar no resultado final do projeto, uma das possibilidades seria algum bug no Jest.
 
 
-## 8. Checklist
+## 7. Checklist
 
 * [✓] Usar VanillaJS.
 * [✓] Passar pelo linter (`npm run pretest`)
@@ -144,7 +144,7 @@ Ao rodar os testes, observamos que apesar da cobertura de 100% das linhas, uma e
 * [✓] UI: Permite filtrar dados com base em uma condição.
 * [✓] UI: É _responsivo_.
 
-## 9. Ferramentas utilizadas
+## 8. Ferramentas utilizadas
 
 * Git
 * GitHub
@@ -156,7 +156,7 @@ Ao rodar os testes, observamos que apesar da cobertura de 100% das linhas, uma e
 * Figma
 * Trello
 
-## 10. Desenvolvedoras
+## 9. Desenvolvedoras
 
 [![Github Badge](https://img.shields.io/badge/-AdrianaOliveira-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/AdrianaKatarina)](https://github.com/AdrianaKatarina)
 [![Linkedin Badge](https://img.shields.io/badge/-Adriana-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/adroliveira/)](https://www.linkedin.com/in/adroliveira/)
