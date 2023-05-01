@@ -4,14 +4,13 @@
 
 * [1. Preâmbulo](#1-preâmbulo)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
-* [4. Definição de produto](#4-definição-de-produto)
-* [5. Protótipos](#5-protótipos)
-* [6. Testes de usabiliade](#6-testes-de-usabilidade)
-* [7. Testes unitários](#7-testes-unitários)
-* [8. Checklist](#8-checklist)
-* [9. Ferramentas utilizadas](#9-ferramentas-utilizadas)
-* [10. Desenvolvedoras](#10-desenvolvedoras)
+* [3. Definição de produto](#3-definição-de-produto)
+* [4. Protótipos](#4-protótipos)
+* [5. Testes de usabiliade](#5-testes-de-usabilidade)
+* [6. Testes unitários](#6-testes-unitários)
+* [7. Checklist](#7-checklist)
+* [8. Ferramentas utilizadas](#8-ferramentas-utilizadas)
+* [9. Desenvolvedoras](#9-desenvolvedoras)
 
 ***
 
@@ -29,14 +28,14 @@ fazer isso é criando _interfaces_ e _visualizações_.
 
 ## 2. Resumo do projeto
 
-Neste projeto proposto pela Laboratoria, construimos uma página web para visualizar um conjunto (set) de dados que se adeque às necessidades do nosso usuário. Como itens essenciais, era necessário uma página web que permita visualizar dados, filtrá-los, ordená-los e fazer algum cálculo agregado.
+Neste projeto proposto pela Laboratoria, construímos uma página web para visualizar um conjunto (set) de dados que se adéquem às necessidades do nosso usuário. Como itens essenciais, era necessária uma página web que permita visualizar dados, filtrá-los, ordená-los e fazer algum cálculo agregado.
 
 Definimos nossa área de interesse diante dos temas propostos e procuramos entender quem seria nosso usuário e o que exatamente ele necessitaria saber ou ver, para assim conseguir construir uma interface que o ajude a interagir e entender melhor os dados.
 
 Este foi nosso "dado" escolhido:
 
 * [Pokémon](src/data/pokemon/pokemon.json): Neste conjunto você encontrará uma
-  lista com os 251 Pokémon da região de Kanto e Johto, com suas respectivas estatísticas
+  lista com os 251 Pokémons da região de Kanto e Johto, com suas respectivas estatísticas
   utilizadas no jogo [Pokémon GO](http://pokemongolive.com).
   - [Pesquisa com jogadores de Pokémon Go](src/data/pokemon/README.pt-BR.md)
 
@@ -45,90 +44,29 @@ O objetivo principal deste projeto foi aprender a desenhar e construir uma
 interface web onde se possa visualizar e manipular dados, entendendo a necessidade do 
 usuário.
 
-## 3. Objetivos de aprendizagem
+## 3. Definição de produto
 
-Neste projeto tinhamos objetivos claros, que foram acordados mediante dialogos ou necessidades para o andamento do projeto. Esses objetivos estão listados a seguir:
-
-- **Uso de HTML semântico**
-
-- **Uso de seletores de CSS**
-
-- **Empregar modelo de caixa (box model): borda, margem, preenchimento**
-
-- **Uso de flexbox em CSS**
-
-- **Uso de seletores de DOM**
-
-- **Manipulação de eventos de DOM (listeners, propagação, delegação)**
-
-- **Manipulação dinâmica de DOM**
-
-- **Diferenciar entre tipos de dados primitivos e não primitivos**
-
-- **Arrays (arranjos)**
-
-- **Objetos (key, value)**
-
-- **Variáveis (declaração, atribuição, escopo)**
-
-- **Uso de condicionais (if-else, switch, operador ternário, lógica booleana)**
-
-- **Uso de laços (while, for, for..of)**
-
-- **Funções (params, args, return)**
-
-- **Testes unitários (unit tests)**
-
-- **Módulos de ECMAScript (ES modules)**
-
-- **Uso de linter (ESLINT)**
-
-- **Uso de identificadores descritivos (Nomenclatura e Semântica)**
-
-- **Diferença entre expressões (expressions) e declarações (statements)**
-
-- **Git: Instalação e configuração**
-
-- **Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)**
-
-- **Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)**
-
-- **GitHub: Criação de contas e repositórios, configuração de chave SSH**
-
-- **GitHub: Implantação com GitHub Pages**
-
-- **GitHub: Colaboração pelo Github (branches | forks | pull requests | code review | tags)**
-
-- **Desenhar e desenvolver um produto ou serviço colocando as usuárias no centro**
-
-- **Criar protótipos para obter feedback e iterar**
-
-- **Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)**
-
-- **Planejar e executar testes de usabilidade**
-
-## 4. Definição de produto
-
-O projeto foi construído para jogadores de POKEMON GO. Onde os usuários pudessem ter uma série de informações dos pokemons para assim ajudá-los nas estratégias de jogo.
+O projeto foi construído para jogadores de Pokémon GO. Onde os usuários pudessem ter uma série de informações dos pokémons para assim ajudá-los nas estratégias de jogo.
 
 Com tais informações sua escolha será mais precisa na hora de jogar. Para auxiliar na busca, o projeto conta com a barra de pesquisa, o filtro por tipo, e a opção de ordenar.
 
+### Para acessar o projeto **[clique aqui](https://adrianakatarina.github.io/SAP009-data-lovers/index.html)**
+
 ### Histórias de usuários
 
-Para a excução correta do projeto, planejamos um protótipo capaz de suprir as necessidades de nosso público-alvo. Partindo de nossas histórias de usuários.
+Para a execução do projeto, planejamos um protótipo capaz de suprir as necessidades de nosso público-alvo. Partindo das seguintes histórias de usuários:
 
-1. Eu como jogador novato de Pokemon Go, quero ter acesso a uma lista de pokemons para conhecê-los;
+1. Eu, como jogador novato de Pokémon Go, quero ter acesso a uma lista de pokémons para conhecê-los;
 
-2. Eu como jogador de Pokemon Go, quero ter opção de filtrar por tipo para saber quais e quantos pokémons pertencem ao tipo especificado;
+2. Eu como jogador de Pokémon Go, quero ter opção de filtrar por tipo para saber quais e quantos pokémons pertencem ao tipo especificado;
 
-3. Eu como jogador quero ordenar os pokemons alfabeticamente e numericamente para poder encontra-los com mais facilidade;
+3. Eu, como jogador, quero organizar os pokémons em ordem alfabética e numérica para encontrá-los com mais facilidade;
 
-4. Eu como mestre pokemon quero saber quantos candies serão necessários para um pokemon evoluir;
+4. Eu como mestre pokémon, quero saber quantos candies serão necessários para um pokémon evoluir;
 
-5. Eu como jogador de Pokemon Go quero uma barra de pesquisa para buscar rapidamente um pokemon específico.
+5. Eu como jogador de Pokémon Go, quero uma barra de pesquisa para buscar rapidamente um pokémon específico.
 
-Ao acessar o site, o usuário clica na pokebola e será direcionado para uma página com todos os cards de Pokemons.
-Cada card possui na parte frontal informações como: peso, altura, raridade, e geração. Ao passar o mouse pelo card, o mesmo vira e irá trazer informações de: fraqueza, resistência, evoluções e quantos candies são necessários para sua evolução.
+Ao acessar o site, o usuário clica na pokebola e será direcionado para uma página com todos os cards de pokémons. Cada card possui na parte frontal informações como: peso, altura, raridade, e geração. Ao passar o mouse pelo card, o mesmo vira e irá trazer informações de: fraqueza, resistência, evoluções e quantos candies são necessários para sua evolução.
 
 
 ## 5. Protótipos
@@ -167,17 +105,17 @@ Fizemos testes de usabilidades e constatamos que:
 
 1º - A barra de pesquisa deveria aceitar somente letras e corrigimos esta questão na estrutura do HTML do projeto;
 
-2º - Ao analisar todos os cards dos Pokemons, haviam 2 cards ( Golbat e Chansey) não continham os dados de candy-cost, pesquisamos e adicionamos as informações no arquivo de dados;
+2º - Ao analisar todos os cards dos pokémons, haviam 2 cards (Golbat e Chansey) não continham os dados de candy-cost, pesquisamos e adicionamos as informações no arquivo de dados;
 
 3º - Em telas de 1366 x 768, os cards ficavam com a altura cortando as informações, fizemos os ajustes necessários;
 
 4º - Na utilização do filtro de tipos, o usuário ao selecionar a opção "todos os tipos" o campo aparecia vazio, sem nenhuma informação, colocamos uma condicional no código para quando o usuário escolher um tipo específico;
 
-5º Em alguns cards (Eevee e Tyrogue), foi observado que constavam alguns caracteres especiais ", , ," embaixo da tabela de evolução, corrigimos no código colocando o join("") depois da tabela.
+5º - Em alguns cards como, Eevee e Tyrogue, foi observado constarem algumas vírgulas(",,,") embaixo da tabela de evolução, corrigimos no código colocando o método join("") depois da tabela.
 
-6º Nos cards o tamanho da letra do nome do pokemon estava pouco destacado. Resolvemos aumentar o tamanho da fonte.
+6º - Nos cards, o tamanho da letra do nome do pokémon estava pouco destacado. Resolvemos aumentar o tamanho da fonte.
 
-7º O nosso usuário sentiu falta de alguma descrição do que pode ser encontrado no site. Resolvemos isso colocando um alert assim que o usuário acessa a página dos cards.
+7º - O nosso usuário sentiu falta de alguma descrição do que pode ser encontrado no site. Resolvemos isso colocando um alert assim que o usuário acessa a página dos cards.
 
 
 ## 7. Testes unitários
@@ -186,14 +124,14 @@ Durante o projeto escrevemos nossos testes unitários para as funções encarreg
 
 Nossos testes unitários tiveram uma cobertura mínima de 100% de statements (sentenças), 100% de functions (funções), 100% de lines (linhas), e 91.66% de branches (ramos) do arquivo src/data.js
 
-Ao rodar os testes, observamos que apesar da cobertura de 100% das linhas, uma em especifico não foi coberta pelos testes. Tivemos a orientação do coach que isso não iria impactar no resultado final do projeto, uma das possibilidades seria algum BUG no jest.
+Ao rodar os testes, observamos que apesar da cobertura de 100% das linhas, uma em específico não foi coberta pelos testes. Tivemos a orientação que isso não iria impactar no resultado final do projeto, uma das possibilidades seria algum bug no Jest.
 
 
 ## 8. Checklist
 
 * [✓] Usar VanillaJS.
-* [✓] Passa pelo linter (`npm run pretest`)
-* [✓] Passa pelos testes (`npm test`)
+* [✓] Passar pelo linter (`npm run pretest`)
+* [✓] Passar pelos testes (`npm test`)
 * [✓] Testes unitários cobrem um mínimo de 70% de statements, functions, lines e
   branches.
 * [✓] Inclui uma _definição de produto_ clara e informativa no `README.md`.
@@ -210,7 +148,9 @@ Ao rodar os testes, observamos que apesar da cobertura de 100% das linhas, uma e
 
 * Git
 * GitHub
-* GitHub Pages
+* HTML
+* CSS
+* JavaScript
 * Node.js
 * Jest
 * Figma
@@ -218,5 +158,11 @@ Ao rodar os testes, observamos que apesar da cobertura de 100% das linhas, uma e
 
 ## 10. Desenvolvedoras
 
-* [Adriana Oliveira](https://www.linkedin.com/in/adriana-oliveira-39250a137/)
-* [Keila Oliveira](https://www.linkedin.com/in/keilaoliveiracopy/)
+[![Github Badge](https://img.shields.io/badge/-AdrianaOliveira-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/AdrianaKatarina)](https://github.com/AdrianaKatarina)
+[![Linkedin Badge](https://img.shields.io/badge/-Adriana-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/adroliveira/)](https://www.linkedin.com/in/adroliveira/)
+[![Gmail Badge](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:dricakatarina@gmail.com)](mailto:dricakatarina@gmail.com)
+
+
+[![Github Badge](https://img.shields.io/badge/-KeilaOliveira-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/Keilaoliveira0112)](https://github.com/Keilaoliveira0112)
+[![Linkedin Badge](https://img.shields.io/badge/-Keila-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/keilaoliveiracopy/)](https://www.linkedin.com/in/keilaoliveiracopy/)
+[![Gmail Badge](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:keilaoliveira.copy@gmail.com)](mailto:keilaoliveira.copy@gmail.com)
