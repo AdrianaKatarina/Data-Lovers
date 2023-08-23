@@ -1,5 +1,5 @@
 import { searchData, filterPokemon, orderPokemon, calculatePercentage } from './data.js';
-import data from './data/pokemon/pokemon.js';
+import data from './data/pokemon.js';
 
 document.addEventListener("DOMContentLoaded", () =>{
   alert("Sejam Bem-vindas e Bem-vindos\n\nNesse site você irá encontrar informações relevantes sobre os pokémons da região Kanto e Johto!");
