@@ -28,21 +28,18 @@ fazer isso é criando _interfaces_ e _visualizações_.
 
 ## 2. Resumo do projeto
 
-Neste projeto proposto pela Laboratoria, construímos uma página web para visualizar um conjunto (set) de dados que se adéquem às necessidades do nosso usuário. Como itens essenciais, era necessária uma página web que permita visualizar dados, filtrá-los, ordená-los e fazer algum cálculo agregado.
+Neste projeto construímos uma página web para visualizar um conjunto (set) de dados que se adéquem às necessidades do nosso usuário. Como itens essenciais, era necessária uma interface que permita visualizar dados, filtrá-los, ordená-los e fazer algum cálculo agregado.
 
 Definimos nossa área de interesse diante dos temas propostos e procuramos entender quem seria nosso usuário e o que exatamente ele necessitaria saber ou ver, para assim conseguir construir uma interface que o ajude a interagir e entender melhor os dados.
 
 Este foi nosso "dado" escolhido:
 
-* [Pokémon](src/data/pokemon/pokemon.json): Neste conjunto você encontrará uma
-  lista com os 251 Pokémons da região de Kanto e Johto, com suas respectivas estatísticas
-  utilizadas no jogo [Pokémon GO](http://pokemongolive.com).
-  - [Pesquisa com jogadores de Pokémon Go](src/data/pokemon/README.pt-BR.md)
-
+* [Pokémon](src/data/pokemon.json): Neste conjunto você encontrará uma
+  lista com os 251 Pokémons da região de Kanto e Johto, com suas respectivas estatísticas utilizadas no jogo [Pokémon GO](http://pokemongolive.com).
+  - [Pesquisa com jogadores de Pokémon Go](src/data/README.pt-BR.md)
 
 O objetivo principal deste projeto foi aprender a desenhar e construir uma
-interface web onde se possa visualizar e manipular dados, entendendo a necessidade do 
-usuário.
+interface web onde se possa visualizar e manipular dados, entendendo a necessidade do usuário.
 
 ## 3. Definição de produto
 
@@ -50,7 +47,7 @@ O projeto foi construído para jogadores de Pokémon GO. Onde os usuários pudes
 
 Com tais informações sua escolha será mais precisa na hora de jogar. Para auxiliar na busca, o projeto conta com a barra de pesquisa, o filtro por tipo, e a opção de ordenar.
 
-### Para acessar o projeto **[clique aqui](https://adrianakatarina.github.io/SAP009-data-lovers/index.html)**
+### Para acessar o projeto **[clique aqui](https://adrianakatarina.github.io/Data-Lovers/)**
 
 ### Histórias de usuários
 
@@ -73,31 +70,32 @@ Ao acessar o site, o usuário clica na pokebola e será direcionado para uma pá
 
 Uma vez tendo essas referências do tópico acima, seguimos para o desenvolvimento de dois protótipos. Um voltado para desktop e outro para mobile.
 
-## Protótipo de baixa fidelidade
+### Protótipo de Baixa Fidelidade
 
-### Protótipo web
+<div align="center">
+  <h3>Protótipo web</h3>
+  <img alt="Tela Home do Prototipo de Baixa Fidelidade" src="https://github.com/AdrianaKatarina/Data-Lovers/assets/122534293/b2ed2fe0-917c-4af6-a59e-79dc98496863" width="500" height="250"/>
+  <img alt="Tela dos Pokemons do Prototipo de Baixa Fidelidade" src="https://github.com/AdrianaKatarina/Data-Lovers/assets/122534293/000eba84-1a6a-4051-9603-8bfeb178242f" width="500" height="250"/>
 
-![Tela Home](/src/image/prototipo-desktop-home-bq.png)
-![Tela inicial](/src/image/prototipo-desktop-bq.png)
+  <h3>Protótipo mobile</h3>
+  <img alt="Tela mobile do Prototipo de Baixa Fidelidade" src="https://github.com/AdrianaKatarina/Data-Lovers/assets/122534293/3cd8b2d5-0197-4da9-9f02-92b48bdaa8e0" width="300" height="400"/>
+</div>
 
-### Protótipo mobile
+### Protótipo de Alta Fidelidade
 
-![Tela mobile](/src/image/prototipo-mobile-bq.png)
+<div align="center">
+  <h3>Protótipo web</h3>
+  <img alt="Tela Home do Prototipo de Alta Fidelidade" src="https://github.com/AdrianaKatarina/Data-Lovers/assets/122534293/ce900532-56c6-4462-ae7d-d026c1b87844" width="500" height="300"/>
+  <img alt="Tela inicial card-front do Prototipo de Alta Fidelidade" src="https://github.com/AdrianaKatarina/Data-Lovers/assets/122534293/45c2d92d-de6a-4862-9185-d22f201ef94b" width="500" height="300"/>
+  <img alt="Tela inicial card-back do Prototipo de Alta Fidelidade" src="https://github.com/AdrianaKatarina/Data-Lovers/assets/122534293/c8b3225b-8cc3-4e43-be31-ef4c8ebe9974" width="500" height="300"/>
+
+  <h3>Protótipo mobile</h3>
+  <img alt="Tela Home Mobile do Prototipo de Alta Fidelidade" src="https://github.com/AdrianaKatarina/Data-Lovers/assets/122534293/67c70edd-49fb-41f2-9312-3260e390d95c" width="200" height="400"/>
+  <img alt="Tela inicial card-front Mobile do Prototipo de Alta Fidelidade" src="https://github.com/AdrianaKatarina/Data-Lovers/assets/122534293/bc8fbfb9-a763-4654-b977-011d710fa910" width="200" height="400"/>
+  <img alt="Tela inicial card-back Mobile do Prototipo de Alta Fidelidade" src="https://github.com/AdrianaKatarina/Data-Lovers/assets/122534293/3f9cee15-c73f-49e7-945e-1de4ef07b433" width="200" height="400"/>
+</div>
 
 
-## Protótipo de alta fidelidade
-
-### Protótipo web
-
-![Tela Home](/src/image/prototipo-web-home.png)
-![Tela inicial card-front](/src/image/prototipo-web-tela-card-front.png)
-![Tela inicial card-back](/src/image/prototipo-web-tela-back.png)
-
-
-### Protótipo mobile
-![Tela Home](/src/image/prototipo-mobile-home.png)
-![Tela inicial card-front](/src/image/prototipo-mobile-tela-front.png)
-![Tela inicial card-back](/src/image/prototipo-mobile-tela-back.png)
 
 ## 5. Testes de usabilidade
 
